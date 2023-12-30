@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* to support mozzila and safari browser */
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.active{
+  text-decoration:underline !important;
+  text-decoration-thickness:5px !important;
+}
+.pointer{
+  cursor:pointer;
+}
+.form-control{
+  -webkit-box-shadow:none!important ;
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+.card-button{
+  border-radius:0px;
+}
+.hoverable:hover{
+  border-right:5px solid #60D3AA;
+  border-bottom:5px solid #60D3AA;
+  border-radius: 12px;
+}
+.jumbotron{
+  width: 30wh;
+  height: 30vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #0B759D, #1FBABF, #60D3AA, #9CEE8C);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
